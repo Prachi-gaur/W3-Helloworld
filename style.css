@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-image: url(https://i.pinimg.com/originals/fa/f8/a2/faf8a2f73b982e6dd33d23404802be3a.jpg);
+	background-size: 100% 110%;
+	width:100%;
+	height:100vh;	
+}
+
+.text{
+	width: 100%;
+	padding-top: 180px;
+	text-align: center;
+	color:#fff;
+}
+
+.text h1{
+	font-size: 150px;
+	font-weight: normal;
+	margin:14px 25px -10px 0px;
+}
+
+.text h2{
+	font-size:60px;
+	font-family: 'sans-serif';
+	font-weight: lighter;
+	margin:0px 15px 30px 0px;
+}
+
+.text h3{
+	font-family: 'sans-serif';
+	font-size:40px;
+	font-weight: lighter;
+}
+.text p{
+	font-size:50px;
+	margin-bottom: 50px;
+}
+.text h6{
+	font-family: 'sans-serif';
+	font-size: 20px;
+	font-weight: lighter;
+}
