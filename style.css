@@ -47,15 +47,19 @@ header{
 	font-weight: lighter;
 }
 input{
-	background-color: rgba(0,0,0,0.2);
+	background-color: rgba(0,0,0,0);
 	color:#fff;
-	border: none;
 	margin: 0px;
 	padding: 0px;
 }
 #task{
-	border: none;
-	margin: 0px;
+	text-align: center;
+	outline: 0;
+	border-top: 0 none;
+	border-right: 0 none;
+	border-left: 0 none;
+	border-bottom: 1px thin #FFF;
+	margin-bottom: 80px;
 	padding: 0px;
 	color:#fff;
 	height:40px;
