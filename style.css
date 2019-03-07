@@ -36,6 +36,8 @@ header{
 	font-weight: lighter;
 }
 .text p{
+	position: relative;
+	top:-50px;
 	font-size:50px;
 	margin-bottom: 50px;
 }
@@ -43,4 +45,20 @@ header{
 	font-family: 'sans-serif';
 	font-size: 20px;
 	font-weight: lighter;
+}
+input{
+	background-color: rgba(0,0,0,0.2);
+	color:#fff;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+}
+#task{
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	color:#fff;
+	height:40px;
+	width: 520px;
+	font-size: 30px;
 }
