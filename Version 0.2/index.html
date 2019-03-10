@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courgette%7CPoppins%7CLato" type="text/css" media="all">
+	<title>Project</title>
+</head>
+
+<body>
+
+	<div id="wrapper">
+		<nav>
+			<div class="menu">
+				<ul class="nav__ul">
+					<li><a class="nav__a__top-left" href="#" id="Links">Links</a></li>
+					<li><a class="nav__a__top-left" href="#" id="Search">
+						<i class="fas fa-search"><input type="search" placeholder="Search..."></i></a></li>
+					<li><a class="nav__a__top-right" href="#" id="Weather">Weather</a></li>
+					<li><a href="#" id="Setttings">Settings</a></li>
+					<li><a href="#" id="Todo">Todo</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<header>
+			<!-- Time of Day -->
+			<div id="timecontainer">
+				<h1 id="timeOfDay"></h1>
+			</div>
+			<!-- Greet and Goal -->
+			<div id="greetcontainer">
+				<h2 id="GreetUser"></h2>
+				<div id="container__goaltext">
+					<h2 id="GoalofToday">What is your main focus for today?</h2>
+					<input id="goal__input" type="text" tabindex="1" placeholder="" required="" autofocus>
+				</div>
+			</div>
+			<!-- Random Quote -->
+			<div id="randomQuoteContainer">
+				<h3 id="randomQuote"></h3>
+			</div>
+
+		</header>
+	</div>
+
+	<script src="app.js"></script>
+</body>
+
+</html>
