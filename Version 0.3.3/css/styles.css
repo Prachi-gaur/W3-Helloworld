@@ -315,6 +315,7 @@ input[type=search]:focus {
 	right: 2.5rem;
 	text-decoration: none;
 	color: #666;
+	font-size: 2.8rem;
 	transition: all .2s;
 }
 
