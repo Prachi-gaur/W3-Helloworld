@@ -258,7 +258,7 @@ input[type=search]:focus {
 	background: 0;
 	border-radius: 20px;
 	outline: none;
-	transition: all .5s;
+	transition: all .2s;
 }
 
 #modal__content__todos__input {
