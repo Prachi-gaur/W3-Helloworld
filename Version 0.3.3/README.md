@@ -2,4 +2,6 @@
 
 TODO: 
 
-Add some form of input for the user in JS
+* Weather API to update weather dynamically
+* Pexels/Unsplash API to change backgrounds dynamically
+* Small CSS/JavaScript Adjustments here and there
