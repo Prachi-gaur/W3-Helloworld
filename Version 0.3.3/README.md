@@ -8,6 +8,6 @@ TODO:
 
 Optional
 
-* Refine Scroll to bottom?
+* Refine scroll to bottom perfectly?
 * Ability to clear all items?
 * Ability to edit an item?
