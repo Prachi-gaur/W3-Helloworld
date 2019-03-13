@@ -52,8 +52,7 @@ const randomQuote = () => {
 /* Autofocus on Modal */
 
 document.getElementById("modal").addEventListener("click", function () {
-  
-
+  /* Nothing going on here yet */
 });
 
 /* <script src="http://wzrd.in/standalone/uuid%2Fv4@latest"></script> */

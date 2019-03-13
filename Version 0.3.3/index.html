@@ -41,20 +41,23 @@
 
 		<div id="modal">
 			<div id="modal__content">
-				<a href="#" class="utility__times"><i class="fas fa-times"></i></a>
-				<div id="modal__content__todos">
-					<div id="modal__content__todos__input">
-					<input id="search-text" type="text" placeholder="Filter todos...">
-					<label>
-						<input type="checkbox" id="hide-completed"> Hide completed
-					</label>
+				<div id="modal__container__upper">
+					<a href="#" class="utility__times"><i class="fas fa-times"></i></a>
+					<div id="modal__content__todos">
+						<div id="modal__content__todos__input">
+							<input id="search-text" type="text" placeholder="Filter todos...">
+							<label>
+								<input type="checkbox" id="hide-completed"> Hide completed
+							</label>
+						</div>
+					</div>
 				</div>
-					<div id="todo__container">
+
+				<div id="todo__container">
 					<div id="todos"></div>
-					<form id="new-todo" autocomplete="off">
-							<input id="goal__input__modal" type="text" placeholder="New todo..." required="" name="text">
-						</form>
-				</div>
+					<form id="new-todo-modal" autocomplete="off">
+						<input id="goal__input__modal" type="text" placeholder="New todo..." required="" name="text">
+					</form>
 				</div>
 			</div>
 		</div>
@@ -70,8 +73,8 @@
 				<div id="container__goaltext">
 					<h2 id="GoalofToday">What is your main focus for today?</h2>
 
-					<form id="new-todo" autocomplete="off">
-						<input id="goal__input" type="text" tabindex="1" placeholder="" required="" name="text" autofocus>
+					<form id="new-todo-frontpage" autocomplete="off">
+						<input id="goal__input" type="text" placeholder="" required="" name="text" autofocus>
 					</form>
 
 				</div>

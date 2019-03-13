@@ -175,8 +175,7 @@ input[type=search]:focus {
 	min-width: 200px;
 	width: 25%;
 	height: 35%;
-	padding: 2.5rem;
-	padding-left: 0rem;
+	padding: 2rem 0rem;
 	border-radius: .4rem;
 	background-color: rgba(8, 8, 8, 0.8);
 	box-shadow: 0 2rem 4rem rgba(22, 22, 22, 0.2);
@@ -223,8 +222,8 @@ input[type=search]:focus {
 }
 
 .todoDiv {
-	padding-top: 4px;
-	padding-bottom: 4px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 .todoDiv__title {
@@ -247,18 +246,36 @@ input[type=search]:focus {
 }
 
 .todoDiv__removeButton {
+	font-size: 20px;
+	line-height: 0px;
+	border-radius: 50%;
 	color: #222;
-	width: 20px;
-	height: 20px;
 	vertical-align: middle;
-	float: right;
 	visibility: hidden;
 	opacity: 0;
 	border: 0;
 	background: 0;
-	border-radius: 20px;
 	outline: none;
+	cursor: pointer;
 	transition: all .2s;
+	float: right;
+	clear: both;
+}
+
+.todoDiv__removeButtonIcon {
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	padding: 5px;
+}
+
+#modal__container__upper {
+	/* Unsure about this... */
+	
+	/*
+	position: sticky;
+	top: 0;
+	*/
 }
 
 #modal__content__todos__input {
@@ -290,10 +307,14 @@ input[type=search]:focus {
 	text-align: left;
 }
 
-.todoDiv:hover > .todoDiv__removeButton { 
+.todoDiv > .todoDiv__removeButton { 
 	visibility: visible;
 	opacity: 1;
-	background-color: #777;
+}
+
+.todoDiv__removeButton:hover { 
+	background-color: rgb(44, 44, 44);
+	color: rgb(223, 223, 223)
 }
 
 .todo__toggled {

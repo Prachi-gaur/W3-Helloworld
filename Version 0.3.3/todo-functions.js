@@ -91,7 +91,7 @@ const generateTodoDOM = function (todo) {
     todoEl.appendChild(todoText)
 
     // Setup the remove button
-    removeButton.innerHTML += '<i class="fas fa-times"></i>'
+    removeButton.innerHTML += '<i class="fas fa-times todoDiv__removeButtonIcon"></i>'
     todoEl.appendChild(removeButton)
     removeButton.addEventListener('click', function () {
         removeTodo(todo.id)
