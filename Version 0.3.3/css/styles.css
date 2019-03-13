@@ -175,7 +175,7 @@ input[type=search]:focus {
 	min-width: 200px;
 	width: 25%;
 	height: 35%;
-	padding: 2rem 0rem;
+	padding: 3.5rem 0;
 	border-radius: .4rem;
 	background-color: rgba(8, 8, 8, 0.8);
 	box-shadow: 0 2rem 4rem rgba(22, 22, 22, 0.2);
