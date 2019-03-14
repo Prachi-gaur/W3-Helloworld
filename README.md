@@ -13,6 +13,7 @@ Optional
 * Refine scroll to bottom perfectly?
 * Ability to clear all items?
 * Ability to edit an item?
+* Sticky the modal todo so that the list items dont affect the filter, hide completed and possibly also the "You have X tasks to achieve today"
 
 Older Edits
 
