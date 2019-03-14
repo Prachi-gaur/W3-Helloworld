@@ -35,7 +35,8 @@ ul li a {
 	color: rgba(255, 255, 255, 0.8);
 }
 
-ul li a:hover {
+ul li a:hover,
+ul li a:focus {
 	color: #F4BF08;
 }
 
@@ -65,8 +66,12 @@ ul li a:hover {
 
 #Search {
 	position: absolute;
-	left: 4%;
+	left: 4.5%;
 	top: 2%;
+}
+
+#Search:focus-within {
+	color: #F4BF08
 }
 
 #Setttings {
