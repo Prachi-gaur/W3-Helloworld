@@ -251,11 +251,6 @@ input[type=search]:focus {
 	margin-bottom: 2.5%;
 }
 
-#weather__modal__temperature__description__full {
-	width: 75%;
-	margin: auto;
-}
-
 #weather__modal__location:target {
 	opacity: 1;
 	visibility: visible
