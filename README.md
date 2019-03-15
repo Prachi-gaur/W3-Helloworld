@@ -2,8 +2,8 @@
 
 Current TODOs:
 
-* Implement Weather API to update weather dynamically
-* Implement Pexels/Unsplash API to change backgrounds dynamically
+* Implement Weather API to update weather dynamically - DONE
+* Implement Pexels/Unsplash API to change backgrounds dynamically - DONE
 * Small CSS/JavaScript Adjustments here and there
 * Display a short message when user enters a listitem, at least on the main page
 * Add ES6 import/export to keep code tidy and organized
