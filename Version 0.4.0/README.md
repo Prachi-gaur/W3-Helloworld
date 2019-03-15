@@ -1,5 +1,5 @@
 # w3Development-Project
 
-0.3.4
+0.4.0
 
-* Added random image from Unsplash without using the API
+* Implemented Weather API
