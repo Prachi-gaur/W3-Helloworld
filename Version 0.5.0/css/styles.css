@@ -285,30 +285,12 @@ input[type=search]:focus {
 	justify-content: center;
 }
 
-#weather__icon__modal__monday {
-	cursor: pointer;
-}
-
-#weather__icon__modal__tuesday {
-	cursor: pointer;
-}
-
-#weather__icon__modal__wednesday {
-	cursor: pointer;
-}
-
-#weather__icon__modal__thursday {
-	cursor: pointer;
-}
-
-#weather__icon__modal__friday {
-	cursor: pointer;
-}
-
-#weather__icon__modal__saturday {
-	cursor: pointer;
-}
-
+#weather__icon__modal__monday,
+#weather__icon__modal__tuesday,
+#weather__icon__modal__wednesday,
+#weather__icon__modal__thursday,
+#weather__icon__modal__friday,
+#weather__icon__modal__saturday,
 #weather__icon__modal__sunday {
 	cursor: pointer;
 }
