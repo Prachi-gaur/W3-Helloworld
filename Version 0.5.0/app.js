@@ -285,10 +285,12 @@ window.addEventListener('load', () => {
               const weatherModalLocationTimezone = document.querySelector('#weather__modal__location__timezone')
 
               if (weeklyContainer.style.display === "flex") {
+                modalWeeklyToggleChevron.innerHTML = `<i class="fas fa-chevron-down"></i>`
                 weeklyContainer.style.display = "none"
                 weatherModalContainer.classList.toggle('width-20')
                 weatherModalLocationTimezone.style.margin = "7.5% auto"
               } else {
+                modalWeeklyToggleChevron.innerHTML = `<i class="fas fa-chevron-up"></i>`
                 weeklyContainer.style.display = "flex"
                 weatherModalContainer.classList.toggle('width-20')
                 weatherModalLocationTimezone.style.margin = "2.5% auto"
