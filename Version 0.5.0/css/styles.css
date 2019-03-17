@@ -277,7 +277,7 @@ input[type=search]:focus {
 
 .weather__modal__weekly__content {
 	flex: 1;
-	align-self: center;
+	align-self: flex-start;
 	padding: 10px;
 }
 
