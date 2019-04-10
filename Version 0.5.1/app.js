@@ -39,18 +39,32 @@ const welcomeGreet = () => {
 welcomeGreet(updateTime)
 
 
-/* Pick Random Quote from Array
+// Display Location
 
-const randomQuote = () => {
-  const randomQuoteFromArray = ['"As long as there are sovereign nations possessing great power, war is inevitable." - Albert Einstein', '"The best argument against democracy is a five-minute conversation with the average voter." - Winston Churchill', '"A good plan violently executed now is better than a perfect plan executed next week." - George S. Patton'];
-  const randomChoice = randomQuoteFromArray[Math.floor(Math.random() * randomQuoteFromArray.length)];
+if (navigator.geolocation) {
+  navigator.geolocation.getCurrentPosition(position => {
+    lat = position.coords.latitude
+    long = position.coords.longitude
+    let url = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${lat},${long}&key=AIzaSyAtsFM4gszTSOH7ENGORIFE4lJ3TeFqc4w`;
+    let h = new Headers();
+    h.append('Accept', 'application/json');
 
-  document.querySelector("#randomQuote").innerHTML = `${randomChoice}`
+    let req = new Request(url, {
+      method: 'get',
+      headers: h,
+    });
+
+    fetch(req).then((response) => {
+      return response.json();
+    }).then((jsonData) => {
+      let resultsArray =  jsonData['results'];
+      let locArray = resultsArray[resultsArray.length - 2];
+      let locData = locArray['formatted_address'];
+      let locHtml = document.querySelector('#location');
+      locHtml.innerHTML = locData;
+    })
+  })
 }
-
-randomQuote()
-*/
-
 
 /* Forismatic API for random quotes 
 */

@@ -83,6 +83,17 @@ a {
 	left: 1%
 }
 
+#location {
+	position: absolute;
+	bottom: 2%;
+	left: 3%;
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.8)
+}
+
+
 #Todo {
 	position: absolute;
 	right: 1%;
